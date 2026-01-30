@@ -6,7 +6,7 @@
 /*   By: ocviller <ocviller@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/11 01:52:43 by ocviller          #+#    #+#             */
-/*   Updated: 2026/01/11 02:01:32 by ocviller         ###   ########.fr       */
+/*   Updated: 2026/01/30 11:22:23 by ocviller         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ FragTrap::~FragTrap()
     std::cout << "Destructor FragTrap " << this->getName() << " called\n";
 }
 
-FragTrap::FragTrap(const FragTrap &copy)
+FragTrap::FragTrap(const FragTrap &copy) : ClapTrap(copy)
 {
 	*this = copy;
 	std::cout << "Copy Constructor called of FragTrap\n";

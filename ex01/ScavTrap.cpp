@@ -6,7 +6,7 @@
 /*   By: ocviller <ocviller@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/11 00:29:59 by ocviller          #+#    #+#             */
-/*   Updated: 2026/01/11 02:01:46 by ocviller         ###   ########.fr       */
+/*   Updated: 2026/01/30 11:21:08 by ocviller         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ ScavTrap::~ScavTrap()
     std::cout << "Destructor ScavTrap " << this->getName() << " called\n";
 }
 
-ScavTrap::ScavTrap(const ScavTrap &copy)
+ScavTrap::ScavTrap(const ScavTrap &copy) : ClapTrap(copy)
 {
 	*this = copy;
 	std::cout << "Copy Constructor called of ScavTrap\n";
