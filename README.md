@@ -44,5 +44,6 @@ ex03 : Now it’s weird! *(pas dans le repo)*
 
 ## 🫐 Auteur
 
-- Océane (ocviller)
-- Piscine de Mars 2025
+* Océane (ocviller)
+* Piscine de Mars 2025
+* Projet réalisé à 42 Paris, 2026
